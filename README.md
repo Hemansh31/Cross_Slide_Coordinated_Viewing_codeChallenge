@@ -1,6 +1,8 @@
 # Cross_Slide_Coordinated_Viewing_codeChallenge
 This Repository is my submission of the code challenge for the GSoC 2021 proposed project Cross-Slide Coordinated Viewing by caMicroscope
 
+[Demo Video](https://drive.google.com/file/d/14Wqk1vx--jo7K5a1uv56YkRrogS2u5kP/view?usp=sharing)
+
 # Instructions for running the code
 1. Clone this repository
 2. Open the **home.html** file in the browser.

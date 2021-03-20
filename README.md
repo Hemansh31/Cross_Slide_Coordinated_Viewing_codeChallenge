@@ -3,7 +3,7 @@ This Repository is my submission of the code challenge for the GSoC 2021 propose
 
 # Instructions for running the code
 1. Clone this repository
-2. Open the *home.html* file in the browser.
+2. Open the **home.html** file in the browser.
 
 # Explanation of my Implementation of the code challenge
 1. The *home.html* opens a page which diplays options to choose any 2 images for Coordinated Viewing

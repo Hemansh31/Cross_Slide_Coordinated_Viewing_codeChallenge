@@ -1,0 +1,110 @@
+body{
+    margin : 0px;
+    padding: 0px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+#header {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 2.8rem;
+    margin: 0px;
+    background-color: #212529;
+    color: white;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 90vw;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 0.05fr 1fr;
+}
+#options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    margin: 0px;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+#wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    margin-top: 2vh;
+}
+.slideViewer{
+    width: 45vw;
+    height: 65vh;
+    justify-self: center;
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 1.8rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-variant: small-caps;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: auto;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+ 
+
+.checkmark {
+    position: absolute;
+    top: 0.2rem;
+    left: -0.5rem;
+    height: 1.8rem;
+    width: 1.8rem;
+    background-color: #eee;
+    border-radius: 50%;
+}
+  
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+  
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+  
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+.container .checkmark:after {
+    top: 0.55rem;
+    left: 0.55rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background: white;
+}
+
+.slidecontainer {
+    width: 35vw;
+    margin-top: 2vh;
+    justify-self: center;
+}
+
+.slider{
+    width: 100%;
+}
+  

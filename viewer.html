@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Code Challenge </title>
+    <link rel="icon" href="utils/gsoc.png">
+	<link rel="stylesheet" type="text/css" href="viewer.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<h1 id="header">
+    	<span><i class="fa fa-arrow-left" style="font-size: 2rem;vertical-align: middle;cursor: pointer;" onclick="goToHome()"></i></span>Cross Slide Coordinated Viewing Code Challenge GSoC 2021
+    </h1>
+	<div id="options">
+		<label class="container">
+			<input type="radio" name="radio" id="IND" checked="checked" onclick="dependence('0')">Independent
+			<span class="checkmark"></span>
+		  </label>
+		  <label class="container">
+			<input type="radio" name="radio" id="sync" onclick="dependence('1')">Synchronized
+			<span class="checkmark"></span>
+		  </label>
+	</div>
+	
+	<div id="wrapper">
+		<div id="openseadragonOne"  class = "slideViewer"></div>
+		<div id="openseadragonTwo" class = "slideViewer"></div>
+		<div class="slidecontainer">
+		  	<input type="range" min="0" max="360" value="0" class="slider" id="myRange1">
+		</div>
+		<div class="slidecontainer">
+		  	<input type="range" min="0" max="360" value="0" class="slider" id="myRange2">
+		</div>
+	</div>
+	
+	<script src="openseadragon/openseadragon.min.js"></script>
+	<script src="viewer.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Code Challenge </title>
+    <link rel="icon" href="utils/gsoc.png">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <h1 id="header">
+        Cross Slide Coordinated Viewing Code Challenge GSoC 2021
+    </h1>
+    <div id="root">
+        <form class="form">
+            <h2>Available Slides</h2>
+            <div class="inputGroup">
+              <input id="s1" name="s1" type="checkbox" onclick="toggle('s1')"/>
+              <label for="s1">Original Slide</label>
+            </div>
+            
+            <div class="inputGroup">
+              <input id="s2" name="s2" type="checkbox" onclick="toggle('s2')"/>
+              <label for="s2">Rotated Slide</label>
+            </div>
+
+            <div class="inputGroup">
+                <input id="s3" name="s3" type="checkbox" onclick="toggle('s3')"/>
+                <label for="s3">Cropped Slide</label>
+            </div>
+
+            <div class="inputGroup">
+                <input id="s4" name="s4" type="checkbox" onclick="toggle('s4')"/>
+                <label for="s4">Cropped and Rotated Slide</label>
+            </div>
+
+            <button class="button" id="viewSlides"> View Slides </button>
+        </form>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>

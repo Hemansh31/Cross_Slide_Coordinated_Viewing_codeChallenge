@@ -13,4 +13,6 @@ This Repository is my submission of the code challenge for the GSoC 2021 propose
 3. The *Independent* option enables the 2 images to zoom, pan or rotate independently of each other
 4. The *Synchronized* option enables the 2 images to zoom, pan or rotate synchronously i.e if one of the image is zoomed, panned or rotated the other image zooms,      pans or rotates automatically.
 
-
+| **Original Image** | **Rotated Image** |**Cropped Image**|**Cropped and Rotated Image**|
+|-----------|----------|--------|------------|
+|<img src="test_images/original.jpeg" alt="Original Image" width="200"/>|<img src="test_images/rotate.jpeg" alt="Original Image" height="200"/>|<img src="test_images/cropped.jpeg" alt="Original Image" width="180"/>|<img src="test_images/croppedAndRotated.jpeg" alt="Original Image" width="180"/>|
